@@ -1,8 +1,23 @@
 import React from "react";
 
+import Demo from "./Components/Demo";
+import Hero from "./Components/Hero";
+import "./App.css";
+
+
+
+
 const App = () =>{
     return(
-        <div>App</div>
+        <main>
+         <div className="main">
+           <div className="gradient"/>
+         </div>
+         <div className="app">
+          <Hero/>
+          <Demo/>
+         </div>
+        </main>
     )
 }
 
